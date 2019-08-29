@@ -21,6 +21,18 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { TraineeheaderComponent } from './traineeheader/traineeheader.component';
 import { TrainerheaderComponent } from './trainerheader/trainerheader.component';
 import { TrainerregisterComponent } from './trainerregister/trainerregister.component';
+import { AdminlandingComponent } from './adminlanding/adminlanding.component';
+import { AdminloginComponent } from './adminlogin/adminlogin.component';
+import { AdminheaderComponent } from './adminheader/adminheader.component';
+import { EdittechnologiesComponent } from './edittechnologies/edittechnologies.component';
+import { BlockusersComponent } from './blockusers/blockusers.component';
+import { BlocktrainersComponent } from './blocktrainers/blocktrainers.component';
+import { MainsearchComponent } from './mainsearch/mainsearch.component';
+import { TrainercurrentComponent } from './trainercurrent/trainercurrent.component';
+import { TrainercompletedComponent } from './trainercompleted/trainercompleted.component';
+import { TrainerloginComponent } from './trainerlogin/trainerlogin.component';
+import { AiComponent } from './ai/ai.component';
+import { AngularComponent } from './angular/angular.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +53,19 @@ import { TrainerregisterComponent } from './trainerregister/trainerregister.comp
     RegisterComponent,
     TraineeheaderComponent,
     TrainerheaderComponent,
-    TrainerregisterComponent
+    TrainerregisterComponent,
+    AdminlandingComponent,
+    AdminloginComponent,
+    AdminheaderComponent,
+    EdittechnologiesComponent,
+    BlockusersComponent,
+    BlocktrainersComponent,
+    MainsearchComponent,
+    TrainercurrentComponent,
+    TrainercompletedComponent,
+    TrainerloginComponent,
+    AiComponent,
+    AngularComponent
   ],
   imports: [
     BrowserModule,

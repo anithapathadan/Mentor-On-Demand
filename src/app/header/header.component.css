@@ -12,7 +12,15 @@ header .main-nav-scrolled{
 	color: #fff;
 }
 
-.dropdown-menu{
-	left:800px;
+#d1{
+	left:750px;
+}
+
+#d2{
+	left:900px;
+}
+
+#d3{
+	left:1000px;
 }
 
